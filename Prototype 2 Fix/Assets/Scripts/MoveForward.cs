@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Prototype 2
+ * Animals and projectiles move forward
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

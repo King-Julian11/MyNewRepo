@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Prototype 2
+ * Destroys animals when hit with projectile
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

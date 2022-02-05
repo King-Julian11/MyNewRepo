@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Prototype 2
+ * Animal spawner
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,8 +18,12 @@ public class SpawnManager : MonoBehaviour
 
     public bool gameOver = false;
 
+    public HealthSystem healthSystem;
+
     private void Start()
     {
+        healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
+
         //InvokeRepeating("SpawnRandomPrefab", 2, 1.5f);
 
         StartCoroutine(SpawnRandomPrefabWithCoroutine());
@@ -23,7 +33,7 @@ public class SpawnManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
 
-        while (!gameOver)
+        while (!healthSystem.gameOver)
         {
             SpawnRandomPrefab();
 

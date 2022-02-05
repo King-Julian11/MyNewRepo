@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Prototype 2
+ * Allows player to shoot projectiles
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
