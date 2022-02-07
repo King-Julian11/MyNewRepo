@@ -1,4 +1,10 @@
-﻿//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
+﻿/*
+ * Julian Salgado
+ * Challenge 2
+ * Displays health to player. Alerts player when game is over
+ */
+
+//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

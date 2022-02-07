@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Challenge 2
+ * Destroys prefabs that go out of bounds
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

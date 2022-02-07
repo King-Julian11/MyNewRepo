@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Challenge 2
+ * Spawns balls at random
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

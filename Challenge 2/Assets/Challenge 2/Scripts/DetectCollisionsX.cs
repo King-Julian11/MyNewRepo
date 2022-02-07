@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Challenge 2
+ * Detects dogs and balls colliding to add to score
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
