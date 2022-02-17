@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Assignment 4
+ * moves scene and obstacles to the left
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

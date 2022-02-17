@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Assignment 4
+ * manages score, restarting, and win and lose conditions
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Assignment 4
+ * spawns obstacles
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

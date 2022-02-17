@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salgado
+ * Assignment 4
+ * controls player
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
