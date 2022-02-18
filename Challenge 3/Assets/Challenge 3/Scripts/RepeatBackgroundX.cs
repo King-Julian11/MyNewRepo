@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Julian Salagdo
+ * Assignment 4
+ * Repeats the background on a loop
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

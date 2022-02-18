@@ -8,6 +8,7 @@ TagManager:
   - Bomb
   - Background
   - Ground
+  - TriggerZone
   layers:
   - Default
   - TransparentFX
