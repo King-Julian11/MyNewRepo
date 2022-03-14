@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 5B
+ * Allows player movement control
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

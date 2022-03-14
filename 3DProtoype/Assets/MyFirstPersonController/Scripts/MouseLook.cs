@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 5B
+ * Allows mouse to control camera
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

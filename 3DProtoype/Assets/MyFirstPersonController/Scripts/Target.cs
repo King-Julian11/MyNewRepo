@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 5B
+ * Controls target health
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
