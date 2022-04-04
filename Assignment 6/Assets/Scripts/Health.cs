@@ -1,15 +1,16 @@
 ﻿/* Julian Salgado
  * Assignment 6
- * Superclass of Inventory
+ * Interface for health system
  */
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class InventoryItem
+public interface Health
 {
-    public int id;
-    public string name;
+    void Update();
+    void TakeDamage();
+
+    void AddMaxHealth();
 }

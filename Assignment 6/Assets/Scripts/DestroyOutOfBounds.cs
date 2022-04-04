@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 6
+ * Destroys objects out of bounds
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +12,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     public float topBound = 20;
     public float bottombound = -10;
 
-    private HealthSystem healthSystemScript;
+    private Health healthSystemScript;
 
     private void Start()
     {

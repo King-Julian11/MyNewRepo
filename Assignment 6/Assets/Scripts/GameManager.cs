@@ -17,26 +17,6 @@ public class GameManager : Singleton<GameManager>
 
     private string currentLevelName = string.Empty;
 
-    //#region This code makes this class a Singleton
-    //public static GameManager instance;
-
-    //private void Awake()
-    //{
-    //    if (instance == null)
-    //    {
-    //        instance = this;
-
-    //        DontDestroyOnLoad(gameObject);
-    //    }
-    //    else
-    //    {
-    //        Destroy(gameObject);
-    //        Debug.LogError("Trying to instantiate a second " +
-    //            "instance of singleton Game Manager");
-    //    }
-    //}
-    //#endregion
-
     public void LoadLevel(string levelName)
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);

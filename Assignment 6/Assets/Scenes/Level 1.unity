@@ -988,7 +988,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Game Over!
 
-    Press R to Restart'
+    Press R to Return to Main Menu'
 --- !u!222 &1091655061
 CanvasRenderer:
   m_ObjectHideFlags: 0

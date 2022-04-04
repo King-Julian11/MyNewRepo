@@ -1,15 +1,13 @@
 ﻿/* Julian Salgado
  * Assignment 6
- * Superclass of Inventory
+ * Interface for prefabs to move forward
  */
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class InventoryItem
+public interface PrefabSetUp
 {
-    public int id;
-    public string name;
+    void Update();
 }

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 6
+ * Creates weapon
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +16,7 @@ public class Weapon : MonoBehaviour
     private void Awake()
     {
         enemyHoldingWeapon = gameObject.GetComponent<Enemy>();
+
         EnemyEatsWeapon(enemyHoldingWeapon);
     }
 

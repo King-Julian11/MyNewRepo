@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 6
+ * Inventory system
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

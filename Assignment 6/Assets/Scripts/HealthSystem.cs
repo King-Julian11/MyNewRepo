@@ -1,9 +1,14 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 6
+ * Controls health system
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthSystem : MonoBehaviour
+public class HealthSystem : MonoBehaviour, Health
 {
     public int health;
     public int maxHealth;
@@ -16,7 +21,7 @@ public class HealthSystem : MonoBehaviour
 
     public GameObject gameOverText;
 
-    void Update()
+    public void Update()
     {
         //If health is somehow more than max health, set health to max health
         if (health > maxHealth)

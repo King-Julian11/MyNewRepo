@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 6
+ * Damage interface
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
