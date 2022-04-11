@@ -412,6 +412,7 @@ MonoBehaviour:
   enemySpeed: 45
   waveCount: 1
   player: {fileID: 583048338}
+  enemy: {fileID: 0}
 --- !u!1001 &258741155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1169,8 +1170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.8, y: 71}
-  m_SizeDelta: {x: 700.46204, y: 75.95523}
+  m_AnchoredPosition: {x: -6.8, y: 27.3}
+  m_SizeDelta: {x: 700.46204, y: 163.33041}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1170353594
 GameObject:

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 7
+ * Sets up enemies
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +14,7 @@ public class EnemyX : MonoBehaviour
     private GameObject playerGoal;
     private SpawnManagerX spawn;
 
-    //public DisplayWave condition;
+    public DisplayWave condition;
 
     public int enemiesInPlayerGoal = 0;
 
@@ -18,10 +23,9 @@ public class EnemyX : MonoBehaviour
     {
         enemyRb = GetComponent<Rigidbody>();
         playerGoal = GameObject.Find("Player Goal");
-        //spawn = GameObject.Find("SpawnManager").GetComponent<SpawnManagerX>();
-        spawn = FindObjectOfType<SpawnManagerX>();
+        spawn = GameObject.Find("SpawnManager").GetComponent<SpawnManagerX>();
         speed = spawn.enemySpeed;
-        //condition = FindObjectOfType<DisplayWave>();
+        condition = FindObjectOfType<DisplayWave>();
     }
 
     // Update is called once per frame
@@ -30,6 +34,11 @@ public class EnemyX : MonoBehaviour
         // Set enemy direction towards player goal and move there
         Vector3 lookDirection = (playerGoal.transform.position - transform.position).normalized;
         enemyRb.AddForce(lookDirection * speed * Time.deltaTime);
+
+        if (enemiesInPlayerGoal == spawn.waveCount)
+        {
+            condition.gameOver = true;
+        }
 
     }
 

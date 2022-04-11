@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 7
+ * Displays UI and determines win/loss conditions
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

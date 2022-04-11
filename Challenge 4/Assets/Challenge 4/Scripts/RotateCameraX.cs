@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 7
+ * Allows camera rotation
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

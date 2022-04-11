@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 7
+ * Spawn managaer for prefabs
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +22,13 @@ public class SpawnManagerX : MonoBehaviour
 
     public GameObject player;
 
+    public EnemyX enemy;
+
+    void Start()
+    {
+        enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyX>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +37,7 @@ public class SpawnManagerX : MonoBehaviour
         if (enemyCount == 0)
         {
             SpawnEnemyWave(waveCount);
+            enemy.enemiesInPlayerGoal = 0;
         }
 
     }
