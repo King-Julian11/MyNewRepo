@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 8
+ * Determines target behavior
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

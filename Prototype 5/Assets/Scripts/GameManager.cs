@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Julian Salgado
+ * Assignment 8
+ * Manages UI, spawnrate, and game overs
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
